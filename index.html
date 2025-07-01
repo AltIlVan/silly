@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bug Found</title>
+  <style>
+    body {
+      background-color: #008080;
+      font-family: 'Tahoma', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .window {
+      background-color: #ece9d8;
+      border: 2px solid #000;
+      width: 420px;
+      box-shadow: 5px 5px #444;
+    }
+
+    .title-bar {
+      background-color: #000080;
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .title-bar button {
+      background-color: #c0c0c0;
+      border: 1px solid #444;
+      width: 20px;
+      height: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .content {
+      padding: 20px;
+      font-size: 14px;
+      color: black;
+    }
+
+    .icon {
+      float: left;
+      margin-right: 15px;
+    }
+
+    .buttons {
+      text-align: right;
+      margin-top: 20px;
+    }
+
+    .buttons button {
+      margin-left: 10px;
+      width: 80px;
+      height: 30px;
+      border: 1px solid #000;
+      background-color: #dcdcdc;
+      cursor: pointer;
+    }
+
+    .footer {
+      font-size: 12px;
+      color: #444;
+      margin-top: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="window">
+    <div class="title-bar">
+      <span>Bug found</span>
+      <button onclick="window.close()">×</button>
+    </div>
+    <div class="content">
+      <img class="icon" src="https://upload.wikimedia.org/wikipedia/en/7/7e/MSN_Messenger_logo.png" width="40" height="40">
+      <p><strong>Windows found a bug in your heart:</strong><br>
+      It's called <em>overthinking.exe</em>. 😵‍💫 But chill... Farell cares about you. 🫶</p>
+
+      <p>Solution: Take a deep breath, drink water, and remember you're not alone in this silly system update called life 💻✨</p>
+
+      <div class="buttons">
+        <button onclick="alert('🤗 HUG FROM FARELL INITIATED')">OK</button>
+        <button onclick="alert('🚀 Proceeding with self-love and cat videos...')">Proceed</button>
+      </div>
+
+      <div class="footer">
+        ~ Sent with glitches and love by Farell 🐛❤️
+      </div>
+    </div>
+  </div>
+</body>
+</html>
